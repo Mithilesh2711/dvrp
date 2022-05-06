@@ -1,3 +1,5 @@
+"""Travelling Salesman Problem without eligibility traces reinforcement learning algorithm"""
+
 import math
 import random
 from matplotlib import pyplot as plt  
@@ -7,8 +9,6 @@ from numpy.core.numeric import normalize_axis_tuple
 from numpy.lib.function_base import append
 from llh import *
 import time
-
-global no_of_nodes 
 
 no_of_heuristics = 7
 eps = 0.9

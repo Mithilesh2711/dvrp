@@ -1,3 +1,5 @@
+"""Dynamic Vehicle Routing Problem with eligibility traces reinforcement learning algorithm"""
+
 import math
 import random
 from matplotlib import pyplot as plt  
@@ -12,7 +14,7 @@ from tsp import *
 from llh2 import g1, g2, g3
 from tsp1 import tsp1
 
-filename = 'r101.txt' 
+filename = 'c100D.txt' 
 time_slices = 40
 cutoff = 0.5
 

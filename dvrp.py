@@ -1,3 +1,5 @@
+"""Dynamic Vehicle Routing Problem with eligibility traces reinforcement learning algorithm"""
+
 import math
 import random
 from matplotlib import pyplot as plt  

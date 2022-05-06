@@ -1,3 +1,5 @@
+"""Travelling Salesman Problem with eligibility traces reinforcement learning algorithm"""
+
 import math
 import random
 from matplotlib import pyplot as plt  
@@ -8,7 +10,6 @@ from numpy.lib.function_base import append
 from llh import *
 import time
 
-global no_of_nodes, end_node
 end_node = []
 
 no_of_heuristics = 7
